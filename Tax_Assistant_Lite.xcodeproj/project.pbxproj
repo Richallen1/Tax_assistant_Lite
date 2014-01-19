@@ -14,13 +14,14 @@
 		9B86FB5A1879C95A009FE411 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B86FB591879C95A009FE411 /* main.m */; };
 		9B86FB5E1879C95A009FE411 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B86FB5D1879C95A009FE411 /* AppDelegate.m */; };
 		9B86FB611879C95A009FE411 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B86FB5F1879C95A009FE411 /* Main.storyboard */; };
-		9B86FB641879C95A009FE411 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B86FB631879C95A009FE411 /* ViewController.m */; };
 		9B86FB661879C95A009FE411 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B86FB651879C95A009FE411 /* Images.xcassets */; };
 		9B86FB6D1879C95A009FE411 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B86FB6C1879C95A009FE411 /* XCTest.framework */; };
 		9B86FB6E1879C95A009FE411 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B86FB4D1879C95A009FE411 /* Foundation.framework */; };
 		9B86FB6F1879C95A009FE411 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B86FB511879C95A009FE411 /* UIKit.framework */; };
 		9B86FB771879C95A009FE411 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B86FB751879C95A009FE411 /* InfoPlist.strings */; };
 		9B86FB791879C95A009FE411 /* Tax_Assistant_LiteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B86FB781879C95A009FE411 /* Tax_Assistant_LiteTests.m */; };
+		9B86FB841879CB8F009FE411 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B86FB831879CB8F009FE411 /* MainViewController.m */; };
+		9B86FB871879CC02009FE411 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B86FB861879CC02009FE411 /* ResultViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		9B86FB5C1879C95A009FE411 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9B86FB5D1879C95A009FE411 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9B86FB601879C95A009FE411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9B86FB621879C95A009FE411 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9B86FB631879C95A009FE411 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9B86FB651879C95A009FE411 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9B86FB6B1879C95A009FE411 /* Tax_Assistant_LiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tax_Assistant_LiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B86FB6C1879C95A009FE411 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9B86FB741879C95A009FE411 /* Tax_Assistant_LiteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tax_Assistant_LiteTests-Info.plist"; sourceTree = "<group>"; };
 		9B86FB761879C95A009FE411 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B86FB781879C95A009FE411 /* Tax_Assistant_LiteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tax_Assistant_LiteTests.m; sourceTree = "<group>"; };
+		9B86FB821879CB8F009FE411 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		9B86FB831879CB8F009FE411 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
+		9B86FB851879CC02009FE411 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		9B86FB861879CC02009FE411 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +118,10 @@
 				9B86FB5C1879C95A009FE411 /* AppDelegate.h */,
 				9B86FB5D1879C95A009FE411 /* AppDelegate.m */,
 				9B86FB5F1879C95A009FE411 /* Main.storyboard */,
-				9B86FB621879C95A009FE411 /* ViewController.h */,
-				9B86FB631879C95A009FE411 /* ViewController.m */,
+				9B86FB851879CC02009FE411 /* ResultViewController.h */,
+				9B86FB861879CC02009FE411 /* ResultViewController.m */,
+				9B86FB821879CB8F009FE411 /* MainViewController.h */,
+				9B86FB831879CB8F009FE411 /* MainViewController.m */,
 				9B86FB651879C95A009FE411 /* Images.xcassets */,
 				9B86FB541879C95A009FE411 /* Supporting Files */,
 			);
@@ -249,9 +254,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B86FB641879C95A009FE411 /* ViewController.m in Sources */,
 				9B86FB5E1879C95A009FE411 /* AppDelegate.m in Sources */,
+				9B86FB841879CB8F009FE411 /* MainViewController.m in Sources */,
 				9B86FB5A1879C95A009FE411 /* main.m in Sources */,
+				9B86FB871879CC02009FE411 /* ResultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
